@@ -26,3 +26,4 @@ THEN the password is either displayed in an alert or written to the page
 Above is a preview of a 16-character passcode generated using all possible characters (lowercase and uppercase letters, special characters, and numbers).
 
 ## Location of Deployed Application
+![Here](https://jmcavaddy.github.io/passcode-generator/) is where you can generate your own passcodes!
