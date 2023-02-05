@@ -7,6 +7,11 @@ generatePassword = function() {
     // Prompt user for password length
     var passwordLength = prompt("How many characters would you like your password to be? (8-128)");
     
+    if (passwordLength === null) {
+        password = "User pressed cancel. This is not a password.";
+        return password;
+    }
+
 
     // Ask user for length again if they enter a number outside of the range
     if (passwordLength < 8 || passwordLength > 128) {
